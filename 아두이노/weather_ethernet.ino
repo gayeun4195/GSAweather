@@ -10,8 +10,10 @@
  풍속계: D2   풍속센서 전선 2개 중 하나는 D2에 나머지는 GND
  강수계: D3   강수센서 전선 2개 중 하나는 D3에 나머지는 GND
  
+ <출처> (아래 홈페이지의 코드 수정해서 사용)
  http://ArtRobot.co.kr 
  http://RoboBob.co.kr
+
 */
 #include <SPI.h>
 #include <Ethernet.h>
