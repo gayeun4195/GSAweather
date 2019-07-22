@@ -5,10 +5,10 @@ import pymysql
 import threading
 import time
 
-conn1=pymysql.connect(host="edu.gsa.hs.kr",port=18001,user="s17032",passwd="1111",db="s17032",charset="utf8")
+conn1=pymysql.connect(host="xxx.xxx.xx.xx",port=OOOOO,user="OOOOO",passwd="OOOO",db="OOOOO",charset="utf8")
 cur1=conn1.cursor(pymysql.cursors.DictCursor)
 
-conn2=pymysql.connect(host="edu.gsa.hs.kr",port=18001,user="s17059",passwd="1111",db="s17059",charset="utf8")
+conn2=pymysql.connect(host="xxx.xxx.xx.xx",port=OOOOO,user="OOOOO",passwd="OOOO",db="OOOOO",charset="utf8")
 cur2=conn2.cursor(pymysql.cursors.DictCursor)
 
 url='http://web.kma.go.kr/aboutkma/intro/gwangju/index.jsp'
